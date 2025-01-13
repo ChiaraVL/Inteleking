@@ -327,4 +327,123 @@ body {
     .sec1, .sec3, .sec4 {
         background-attachment: scroll;
     }
+
+    .sec1 h1 {
+        font-size: 48px;
+    }
+
+    .sec2 h3, .sec2 span, .sec3 h2, .sec4 h2, .sec5 h2, .sec6 h2 {
+        font-size: 36px;
+    }
+
+    .sec2 .num {
+        font-size: 36px;
+    }
+
+    .sec5 h5 {
+        font-size: 20px;
+    }
+
+    .sec3 h4 {
+        font-size: 24px;
+    }
+
+    .sec2 .row {
+        flex-direction: column;
+    }
+
+    .sec5 .row {
+        flex-direction: column;
+    }
+
+    .sec5 {
+        padding: 3%;
+    }
+
+    .card-img-top {
+        height: 200px;
+    }
 }
+
+@media (max-width: 576px) {
+    .sec1 h1 {
+        font-size: 36px; /* Reducido para pantallas más pequeñas */
+    }
+
+    .sec2 h3, .sec2 span, .sec3 h2, .sec4 h2, .sec5 h2, .sec6 h2 {
+        font-size: 28px;
+    }
+
+    .sec2 .num {
+        font-size: 28px;
+    }
+
+    .sec5 h5 {
+        font-size: 18px;
+    }
+
+    .sec3 h4 {
+        font-size: 20px;
+    }
+
+    .sec2 p, .sec3 p, .sec4 p, .sec5 p {
+        font-size: 16px;
+    }
+
+    .team-member img {
+        width: 100%;
+        height: auto; /* Garantiza que la imagen mantenga su proporción */
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: auto; /* Ajuste en imágenes de tarjeta */
+    }
+
+    .sec2 .row {
+        flex-direction: column; /* Apilar columnas en lugar de alinearlas horizontalmente */
+        align-items: flex-start; /* Alineación de los elementos */
+    }
+
+    .sec5 .row {
+        flex-direction: column; /* Apilar columnas en lugar de alinearlas horizontalmente */
+        align-items: flex-start;
+    }
+
+    .sec5 {
+        padding: 2% 3%; /* Menos espacio de relleno en dispositivos pequeños */
+    }
+
+    .card {
+        margin-bottom: 10px; /* Reducir márgenes en las tarjetas */
+    }
+
+    .animate-zoomIn, .animate-slideUp, .animate-slideInLeft, .animate-slideInRight {
+        animation-duration: 0.5s; /* Reducir la duración de las animaciones */
+    }
+
+    .team-member img {
+        width: 100px; /* Reducir tamaño de las imágenes de los miembros del equipo */
+        height: 100px;
+    }
+
+    .info-box {
+        width: 100px; /* Reducir el tamaño de los cuadros de información */
+        padding: 5px;
+    }
+
+    .team-member .info-box h5, .team-member .info-box p {
+        font-size: 12px; /* Ajuste en el tamaño de texto dentro del cuadro de información */
+    }
+
+    .sec1, .sec3, .sec4 {
+        background-attachment: scroll; /* Desactivar el fondo fijo en pantallas pequeñas */
+    }
+
+    .card-link {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+
