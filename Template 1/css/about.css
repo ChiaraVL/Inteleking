@@ -1,0 +1,197 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.transform-img {
+    transform: rotate(-10deg); /* Ajusta el valor de rotación como desees */
+}
+  
+.quarter-circle{
+    clip-path: circle(100% at 0% 100%);
+}
+
+.sec1 {
+    background-image: url('../images/4.png');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.sec1 h1{
+    font-family: "Yeseva One", cursive;
+    color: #09212e;
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.sec2 h3, .sec2 span, .sec3 h2{
+    text-align: left;
+    color: #09212e;
+    font-family: "Yeseva One", cursive;
+    margin-bottom: 15px;
+    line-height: 1.3em;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.sec2 p {
+    text-align: left;
+    color: #343a40;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.sec2 .num {
+    text-align: left;
+    color: #8DD33C;
+    font-family: "Yeseva One", cursive;
+    margin-bottom: 15px;
+    line-height: 1.3em;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.sec2 .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec2 .col-md-4 {
+    flex: 1; /* Esto asegura que las columnas se distribuyan equitativamente */
+}
+
+.sec3 {
+    background: linear-gradient(to bottom, #ffffff, #e8f9e5, #c8f2c9);
+}
+
+.sec3 h2 {
+    text-align: center;
+}
+
+.sec4 {
+    background-image: url('../images/3.png');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.team-member {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.info-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #8DD33C;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border-radius: 8px;
+    display: none;
+}
+
+.team-member:hover .info-box {
+    display: block;
+}
+
+.info-box h5 {
+    margin: 0 0 5px;
+}
+
+.info-box p {
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.team-member:hover img {
+    transform: scale(1.1);
+}
+
+/*Animaciones*/
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animate-slideInLeft {
+    animation: slideInLeft 1s ease-out;
+}
+
+/* Animación de deslizamiento hacia la derecha */
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Clase para aplicar la animación de deslizamiento hacia la derecha a la sección de los contadores */
+.slide-right {
+    animation: slideInRight 1s ease-out;
+}
+
+
+/* Animación de zoom para la imagen */
+@keyframes zoomIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.transform-img {
+    animation: zoomIn 1s ease-out;
+}
+
+/* Clase para aplicar la animación de deslizamiento a la columna p1 */
+.p1 {
+    animation: slideInLeft 1s ease-out;
+}
