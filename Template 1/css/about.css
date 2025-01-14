@@ -5,7 +5,7 @@ body {
 }
 
 .transform-img {
-    transform: rotate(-10deg); /* Ajusta el valor de rotación como desees */
+    transform: rotate(-10deg);
 }
   
 .quarter-circle{
@@ -19,7 +19,6 @@ body {
     background-attachment: fixed;
 }
 
-
 .sec1 h1{
     font-family: "Yeseva One", cursive;
     color: #09212e;
@@ -29,6 +28,10 @@ body {
     margin-top: 0px;
     margin-right: 0px;
     margin-left: 0px;
+}
+
+.sec2 {
+    background: linear-gradient(to bottom, #ffffff, #e8f9e5, #c8f2c9);
 }
 
 .sec2 h3, .sec2 span, .sec3 h2, .sec4 h2, .sec5 h2, .sec6 h2{
@@ -81,9 +84,8 @@ body {
 }
 
 .sec3 {
-    background: linear-gradient(to bottom, #ffffff, #e8f9e5, #c8f2c9);
+    background: linear-gradient(to top, #ffffff, #e8f9e5, #c8f2c9);
     min-height: 600px;
-    background-attachment: fixed;
 }
 
 .sec3 h2 {
@@ -214,7 +216,7 @@ body {
     color: inherit;
 }
 
-.card-title:hover {
+.card-link:hover .card-title {
     color: #8DD33C;
 }
 
@@ -227,98 +229,6 @@ body {
 
 .card-img-top:hover {
     filter: brightness(50%);
-}
-
-/*Animaciones*/
-
-@keyframes slideInLeft {
-    from {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-.animate-slideInLeft {
-    animation: slideInLeft 1s ease-out;
-}
-
-/* Animación de deslizamiento hacia la derecha */
-@keyframes slideInRight {
-    from {
-        transform: translateX(100%);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-/* Clase para aplicar la animación de deslizamiento hacia la derecha a la sección de los contadores */
-.slide-right {
-    animation: slideInRight 1s ease-out;
-}
-
-
-/* Animación de zoom para la imagen */
-@keyframes zoomIn {
-    from {
-        transform: scale(0.8);
-        opacity: 0;
-    }
-    to {
-        transform: scale(1);
-        opacity: 1;
-    }
-}
-
-/* Clase para activar la animación */
-.animate-zoomIn {
-    animation: zoomIn 0.6s ease-out forwards;
-}
-
-.transform-img {
-    animation: zoomIn 1s ease-out;
-}
-
-/* Clase para aplicar la animación de deslizamiento a la columna p1 */
-.p1, .sp1 {
-    animation: slideInLeft 1s ease-out;
-}
-
-.p2 {
-    animation: slideInRight 1s ease-out;
-}
-
-/* Animación para deslizamiento hacia arriba */
-@keyframes slideUp {
-    from {
-        transform: translateY(100px);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
-/* Estado inicial antes de la animación */
-.sec3 .text-center,
-.sec3 .col-md-3, 
-.sec5 .col-md-3, 
-.sec5 .text-center,
-.sec6 .text-center {
-    opacity: 0;
-    transform: translateY(100px); /* Posición inicial fuera de la pantalla */
-}
-
-/* Clase para activar la animación */
-.animate-slideUp {
-    animation: slideUp 1s ease-out forwards;
 }
 
 /*Responsive*/

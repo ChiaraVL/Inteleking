@@ -1,0 +1,128 @@
+body {
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+    
+.sec1 {
+    background-image: url('../images/4.png');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.sec1 h1{
+    font-family: "Yeseva One", cursive;
+    color: #09212e;
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.sec2 .card {
+    border-radius: 0px;
+    min-height: 350px;
+    align-items: center;
+    background: transparent;
+    border: #e8f9e5 solid 1px;
+    color: #09212e;
+    padding: 35px;
+    transition: ease-out .2s;
+}
+
+.sec2 .card:hover {
+    color: #fff;
+    background-color: #8DD33C;
+    border-bottom: 4px solid #5a8726;
+    transition: ease-in .2s;
+}
+
+.sec2 .card:hover .card-text {
+    color: #fff;
+    transition: ease-in .2s;
+}
+
+.sec2 .card-title {
+    font-family: "Yeseva One", cursive;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.sec2 .card-text {
+    text-align: left;
+    color: #343a40;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    transition: ease-out .2s;
+}
+
+.sec2 i{
+    color: #8DD33C;
+    font-weight: 400;
+    justify-self: left;
+    display: flex;
+}
+
+.sec3 {
+    padding: 70px 20px;
+    text-align: center;
+    min-height: 540px;
+    background-image: url('../images/3.png');
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.sec3 h2 {
+    font-family: "Yeseva One", cursive;
+    text-align: left;
+    color: #09212e;
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.sec3 p {
+    font-family: "Nunito Sans", sans-serif;
+    text-align: left;
+    color: #343a40;
+    font-size: 23px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.sec3 img {
+    max-width: 100%;
+    height: auto;
+    transform: rotate(-10deg);
+}
+
+.sec4 h2 {
+    text-align: center;
+    color: #09212e;
+    font-family: "Yeseva One", cursive;
+    margin-bottom: 15px;
+    line-height: 1.3em;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.sec4 p {
+    font-size: 25px;
+}
+
+.sign {
+    margin-top: 15px;
+}

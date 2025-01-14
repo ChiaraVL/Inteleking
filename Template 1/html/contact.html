@@ -5,7 +5,7 @@
     <meta name="author" content="Chiara Valenzuela">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Titulo -->
-    <title>About Lorem | Chiara Valenzuela</title>
+    <title>Contact Lorem | Chiara Valenzuela</title>
     <link rel="shortcut icon" href="../images/logo-s.png" type="image/x-icon">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -44,7 +44,7 @@
                   <a class="nav-link" href="./about.html">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
+                  <a class="nav-link" href="./services.html">Services</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Blog</a>
@@ -72,76 +72,68 @@
       <section class="contact-form-section py-5 sec2">
         <div class="container-fluid" style="padding-left: 10%; padding-right: 10%;">
           <div class="row">
-            <div class="col-12">
+            <div class="col-12" data-aos="fade-up">
               <h2>Hello! <br> How can I assist you?</h2>
             </div>
-            <div class="col-12">
+            <div class="col-12" data-aos="fade-up" data-aos-delay="500">
               <form action="#" method="POST" class="mt-4">
                 <div class="row mb-3">
                   <div class="col-md-6">
-                    <label for="first-name" class="form-label">First Name</label>
-                    <input type="text" class="form-control" id="first-name" placeholder="Enter your first name" required>
+                    <input type="text" class="form-control" id="first-name" placeholder="First name" required>
                   </div>
                   <div class="col-md-6">
-                    <label for="last-name" class="form-label">Last Name</label>
-                    <input type="text" class="form-control" id="last-name" placeholder="Enter your last name" required>
+                    <input type="text" class="form-control" id="last-name" placeholder="Last name" required>
                   </div>
                 </div>
                 <div class="mb-3">
-                  <label for="email" class="form-label">Email</label>
                   <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
                 </div>
                 <div class="mb-3">
-                  <label for="subject" class="form-label">Subject</label>
-                  <input type="text" class="form-control" id="subject" placeholder="Enter the subject" required>
+                  <input type="text" class="form-control" id="subject" placeholder="Subject" required>
                 </div>
                 <div class="mb-3">
-                  <label for="message" class="form-label">Message</label>
-                  <textarea class="form-control" id="message" rows="4" placeholder="Write your message" required></textarea>
+                  <textarea class="form-control" id="message" rows="4" placeholder="Message" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-outline-secondary btn1">Submit</button>
+                <button type="submit" class="btn btn-outline-secondary btn1">Submit Form</button>
               </form>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="contact-info-cards py-5">
+      <section class="contact-info-cards py-5 sec3">
         <div class="container-fluid" style="padding-left: 10%; padding-right: 10%;">
-          <div class="row">
-            <div class="col-12">
-              <div class="card border-primary align-items-spacebetween justify-content-center">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-md-4" style="padding-left: 5%;">
-                      <i class="bi bi-geo-alt-fill"></i>
-                      <h5>Address</h5>
-                      <p>Washington State Convention Center 705 Pike Street.</p>
-                    </div>
-                    <div class="col-md-4 border-end border-start">
-                      <i class="bi bi-envelope-fill"></i>
-                      <h5>Email Address</h5>
-                      <p>Contact@homestead.com</p>
-                      <p>Contact2@homestead.com</p>
-                    </div>
-                    <div class="col-md-4" style="padding-right: 5%;">
-                      <i class="bi bi-telephone-fill"></i>
-                      <h5>Contact</h5>
-                      <p>+88123-4647-98767</p>
-                      <p>+88123-4647-98778</p>
-                    </div>
-                  </div>
+            <div class="row">
+                <div class="col-12">
+                    <a href="#" class="card align-items-spacebetween justify-content-center card-link">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-4" style="padding-left: 5%;" data-aos="fade-up">
+                                    <h5><i class="bi bi-geo-alt-fill"></i> <br>Address</h5>
+                                    <p>Washington State Convention Center 705 Pike Street.</p>
+                                </div>
+                                <div class="col-md-4 border-end border-start" data-aos="fade-up" data-aos-delay="500">
+                                    <h5><i class="bi bi-envelope-fill"></i><br>Email Address</h5>
+                                    <p>Contact@homestead.com</p>
+                                    <p>Contact2@homestead.com</p>
+                                </div>
+                                <div class="col-md-4" style="padding-right: 5%;" data-aos="fade-up" data-aos-delay="1000">
+                                    <h5><i class="bi bi-telephone-fill"></i> <br>Contact</h5>
+                                    <p>+88123-4647-98767</p>
+                                    <p>+88123-4647-98778</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </section>
+      </section>    
 
-      <section class="map-section py-5">
-        <div class="container">
+      <section class="map-section py-5 sec4" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="container-fluid" style="padding-left: 10%; padding-right: 10%;">
           <div class="map-wrap">
-            <div id="map" style="height: 400px;"></div>
+            <div id="map" style="height: 500px;"></div>
           </div>
         </div>
       </section>
@@ -168,7 +160,7 @@
                             <ul class="list-unstyled">
                                 <li><a href="./index.html">Home</a></li>
                                 <li><a href="./about.html">About Us</a></li>
-                                <li><a href="#">Services</a></li>
+                                <li><a href="./services.html">Services</a></li>
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="./contact.html">Contact</a></li>
                             </ul>
