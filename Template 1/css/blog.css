@@ -20,3 +20,133 @@ body {
     margin-right: 0px;
     margin-left: 0px;
 }
+
+.sec2 {
+    min-height: 533px;
+}
+
+.article-bg {
+    padding-left: 5%;
+    max-width: 786px;
+    max-height: 455px;
+    transition: filter 0.3s ease;
+}
+
+.article-bg:hover {
+    filter: brightness(50%);
+}
+
+.article-info {
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0px;
+    z-index: 2;
+    min-width: 787px;
+    min-height: 369px;
+    margin-left: 65%;
+}
+
+.content {
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+.article-info h2 {
+    text-align: left;
+    color: #09212e;
+    font-family: 'Yeseva One', cursive;
+    font-size: 1.8rem;
+    line-height: 45px;
+    transition: ease-in-out .3s;
+}
+
+.article-info h2:hover{
+    color: #8DD33C;
+}
+
+.article-info .date {
+    text-align: left;
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.article-info p {
+    text-align: left;
+    color: #09212e;
+    line-height: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.sign {
+    margin-top: 15px;
+    align-items: center;
+}
+
+.sec3 h5 {
+    font-family: "Yeseva One", cursive;
+    margin-bottom: 15px;
+    text-align: left;
+    line-height: 1.3em;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.sec3 p {
+    text-align: left;
+    color: #6c757d;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+
+.card {
+    border-radius: 0px;
+    border: none;
+  }
+
+.card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-link:hover .card-title {
+    color: #8DD33C;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+    transition: filter 0.3s ease;
+}
+
+.card-img-top:hover {
+    filter: brightness(50%);
+}
+
+.pagination .page-link {
+    color: #8DD33C;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #8DD33C;
+    border-color: #8DD33C;
+    color: #fff;
+}

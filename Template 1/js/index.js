@@ -41,4 +41,17 @@ document.addEventListener("DOMContentLoaded", () => {
     // Observar la sección de los contadores
     const observer = new IntersectionObserver(animateOnScroll, observerOptions);
     observer.observe(document.querySelector(".sec5")); // Observar la sección con contadores
+
+    const goalItems = document.querySelectorAll('.goal-item');
+
+    // Agrega un evento de clic a cada elemento
+    goalItems.forEach(item => {
+        item.addEventListener('click', () => {
+        // Remueve la clase 'active' de todos los elementos
+        goalItems.forEach(i => i.classList.remove('active'));
+        
+        // Agrega la clase 'active' al elemento seleccionado
+        item.classList.add('active');
+        });
+    });
 });

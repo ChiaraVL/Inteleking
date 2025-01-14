@@ -182,6 +182,10 @@ body {
     text-decoration: none;
 }
 
+.social-icons a:hover {
+    color: #09212e;
+} 
+
 .team-member:hover img {
     transform: scale(1.1);
 }
