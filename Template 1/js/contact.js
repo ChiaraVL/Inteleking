@@ -1,5 +1,5 @@
 // Inicialización del mapa
-var map = L.map('map').setView([4.6541, -74.0851], 13);
+var map = L.map('map').setView([55.378051, -3.435973], 13);
 
 // Cargar las tiles de OpenStreetMap
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -7,7 +7,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Agregar un marcador
-var marker = L.marker([4.6541, -74.0851]).addTo(map);
+var marker = L.marker([55.378051, -3.435973]).addTo(map);
 
 // Popup con información
 marker.bindPopup("Here we are!").openPopup();
