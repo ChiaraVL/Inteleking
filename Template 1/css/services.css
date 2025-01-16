@@ -1,7 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: "Nunito Sans", sans-serif;
     margin: 0;
-    overflow-x: hidden;
+    padding: 0;
 }
     
 .sec1 {
@@ -125,4 +134,99 @@ body {
 
 .sign {
     margin-top: 15px;
+}
+
+/*Responsive*/
+
+/* Para pantallas pequeñas (máximo 768px) */
+@media (max-width: 768px) {
+    .sec1 h1 {
+        font-size: 48px;  /* Reduce el tamaño del título */
+    }
+
+    .sec2 .card-title {
+        font-size: 24px;  /* Reducir el tamaño de los títulos en tarjetas */
+    }
+
+    .sec2 .card-text {
+        font-size: 18px;  /* Reducir el tamaño del texto en las tarjetas */
+    }
+
+    .sec3 h2 {
+        font-size: 40px;  /* Reducir el tamaño de los títulos */
+    }
+
+    .sec3 p {
+        font-size: 18px;  /* Reducir el tamaño del texto en párrafos */
+    }
+
+    .sec4 h2 {
+        font-size: 36px;  /* Reducir el tamaño del título */
+    }
+
+    .sec4 p {
+        font-size: 20px;  /* Reducir el tamaño del párrafo */
+    }
+}
+
+/* Para pantallas medianas (máximo 991px) */
+@media (max-width: 991px) {
+    .sec1 h1 {
+        font-size: 56px;  /* Ajustar el tamaño del título */
+    }
+
+    .sec2 .card-title {
+        font-size: 26px;  /* Ajustar el tamaño de los títulos */
+    }
+
+    .sec2 .card-text {
+        font-size: 19px;  /* Ajustar el tamaño del texto en las tarjetas */
+    }
+
+    .sec3 h2 {
+        font-size: 50px;  /* Ajustar el tamaño del título */
+    }
+
+    .sec3 p {
+        font-size: 21px;  /* Ajustar el tamaño del párrafo */
+    }
+
+    .sec4 h2 {
+        font-size: 42px;  /* Ajustar el tamaño del título */
+    }
+
+    .sec4 p {
+        font-size: 22px;  /* Ajustar el tamaño del párrafo */
+    }
+}
+
+/* Para pantallas extra grandes (mayores de 991px) */
+@media (min-width: 992px) {
+    .sec1 h1 {
+        font-size: 64px;  /* Título grande para pantallas más grandes */
+    }
+
+    .sec2 .card-title {
+        font-size: 30px;  /* Títulos grandes en tarjetas */
+    }
+
+    .sec2 .card-text {
+        font-size: 20px;  /* Texto más grande */
+    }
+
+    .sec3 h2 {
+        font-size: 55px;  /* Título grande */
+    }
+
+    .sec3 p {
+        font-size: 23px;  /* Párrafos de tamaño normal */
+    }
+
+    .sec4 h2 {
+        font-size: 48px;  /* Títulos de tamaño adecuado */
+    }
+
+    .sec4 p {
+        font-size: 25px;  /* Párrafos de tamaño adecuado */
+    }
 }

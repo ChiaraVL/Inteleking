@@ -1,9 +1,18 @@
-body {
-    font-family: "Nunito Sans", sans-serif;
-    margin: 0;
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
     overflow-x: hidden;
 }
-    
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .sec1 {
     background-image: url('../images/4.png');
     background-repeat: repeat;
@@ -149,4 +158,49 @@ body {
     background-color: #8DD33C;
     border-color: #8DD33C;
     color: #fff;
+}
+
+/*Responsive*/
+
+@media (max-width: 576px) {
+    .article-info h2 {
+        font-size: .8rem;
+    }
+    
+    .article-info .date {
+        font-size: 0.5rem;
+    }
+    
+    .article-info p {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .sec1 h1 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 1244px) {
+
+    .sec1 h1 {
+        font-size: 64px;
+    }
+
+    .article-info {
+        min-width: 100%;
+        margin-left: 50%;
+    }
+
+    .article-bg {
+        opacity: 0;
+    }
+
+    
+    .article-info p {
+        text-wrap: break-word;
+        font-size: 1rem;
+    }
 }

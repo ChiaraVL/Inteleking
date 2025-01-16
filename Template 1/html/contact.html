@@ -25,174 +25,175 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-md">
-        <div class="container-fluid justify-content-center">
-          <div class="d-flex align-items-center border-end pe-5">
-            <a class="navbar-brand" href="./index.html" id="Logo">
-              <img src="https://via.placeholder.com/30x30?text=Logo" alt="Logo">
-              Lorem
-            </a>
+      <div class="container justify-content-center">
+        <div class="d-flex align-items-center pe-5">
+          <a class="navbar-brand" href="./index.html" id="Logo">
+            <img src="https://via.placeholder.com/30x30?text=Logo" alt="Logo">
+            Lorem
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse bs be justify-content-center align-items-center" id="navbarNav">
+            <ul class="navbar-nav align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+        </div>
+          <form class="d-flex search-form ps-5" role="search">
+            <i class="bi bi-search"></i>
+            <input class="form-control me-2" type="search" placeholder="Search here..." aria-label="Search">
+          </form>
+      </div>
+    </nav>
+
+    <!-- Encabezado de la sección de contacto -->
+    <section class="contact-header py-5 sec1">
+      <div class="container-fluid text-center">
+        <h1>Contact Us</h1>
+      </div>
+    </section>
+
+    <!-- Mensaje de bienvenida y formulario de contacto -->
+    <section class="contact-form-section py-5 sec2">
+      <div class="container-fluid" style="padding-left: 8%; padding-right: 8%;">
+        <div class="row">
+          <div class="col-12" data-aos="fade-up">
+            <h2>Hello! <br> How can I assist you?</h2>
           </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNav">
-              <ul class="navbar-nav align-items-center">
-                <li class="nav-item">
-                  <a class="nav-link" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./services.html">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./blog.html">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="./contact.html">Contact</a>
-                </li>
-              </ul>
-          </div>
-            <form class="d-flex search-form border-start ps-5" role="search">
-              <i class="bi bi-search"></i>
-              <input class="form-control me-2" type="search" placeholder="Search here..." aria-label="Search">
+          <div class="col-12" data-aos="fade-up" data-aos-delay="500">
+            <form action="#" method="POST" class="mt-4">
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="first-name" placeholder="First name" required>
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="last-name" placeholder="Last name" required>
+                </div>
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" id="message" rows="4" placeholder="Message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-outline-secondary btn1">Submit Form</button>
             </form>
+          </div>
         </div>
-      </nav>
+      </div>
+    </section>
 
-      <!-- Encabezado de la sección de contacto -->
-      <section class="contact-header py-5 sec1">
-        <div class="container-fluid text-center">
-          <h1>Contact Us</h1>
-        </div>
-      </section>
-
-      <!-- Mensaje de bienvenida y formulario de contacto -->
-      <section class="contact-form-section py-5 sec2">
-        <div class="container-fluid" style="padding-left: 10%; padding-right: 10%;">
+    <section class="contact-info-cards py-5 sec3">
+      <div class="container-fluid" style="padding-left: 10%; padding-right: 10%;">
           <div class="row">
-            <div class="col-12" data-aos="fade-up">
-              <h2>Hello! <br> How can I assist you?</h2>
-            </div>
-            <div class="col-12" data-aos="fade-up" data-aos-delay="500">
-              <form action="#" method="POST" class="mt-4">
-                <div class="row mb-3">
-                  <div class="col-md-6">
-                    <input type="text" class="form-control" id="first-name" placeholder="First name" required>
-                  </div>
-                  <div class="col-md-6">
-                    <input type="text" class="form-control" id="last-name" placeholder="Last name" required>
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-                </div>
-                <div class="mb-3">
-                  <input type="text" class="form-control" id="subject" placeholder="Subject" required>
-                </div>
-                <div class="mb-3">
-                  <textarea class="form-control" id="message" rows="4" placeholder="Message" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-outline-secondary btn1">Submit Form</button>
-              </form>
-            </div>
+              <div class="col-12">
+                  <a href="#" class="card align-items-spacebetween justify-content-center card-link" style="padding-left: 8%; padding-right: 8%;">
+                      <div class="card-body">
+                          <div class="row">
+                              <div class="col-md-4" data-aos="fade-up">
+                                  <h5><i class="bi bi-geo-alt-fill"></i> <br>Address</h5>
+                                  <p>Washington State Convention Center 705 Pike Street.</p>
+                              </div>
+                              <div class="col-md-4 border-end border-start" data-aos="fade-up" data-aos-delay="200">
+                                  <h5><i class="bi bi-envelope-fill"></i><br>Email Address</h5>
+                                  <p>Contact@homestead.com</p>
+                                  <p>Contact2@homestead.com</p>
+                              </div>
+                              <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                                  <h5><i class="bi bi-telephone-fill"></i> <br>Contact</h5>
+                                  <p>+88123-4647-98767</p>
+                                  <p>+88123-4647-98778</p>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
           </div>
-        </div>
-      </section>
+      </div>
+    </section>    
 
-      <section class="contact-info-cards py-5 sec3">
-        <div class="container-fluid" style="padding-left: 10%; padding-right: 10%;">
-            <div class="row">
-                <div class="col-12">
-                    <a href="#" class="card align-items-spacebetween justify-content-center card-link">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-md-4" style="padding-left: 5%;" data-aos="fade-up">
-                                    <h5><i class="bi bi-geo-alt-fill"></i> <br>Address</h5>
-                                    <p>Washington State Convention Center 705 Pike Street.</p>
-                                </div>
-                                <div class="col-md-4 border-end border-start" data-aos="fade-up" data-aos-delay="200">
-                                    <h5><i class="bi bi-envelope-fill"></i><br>Email Address</h5>
-                                    <p>Contact@homestead.com</p>
-                                    <p>Contact2@homestead.com</p>
-                                </div>
-                                <div class="col-md-4" style="padding-right: 5%;" data-aos="fade-up" data-aos-delay="400">
-                                    <h5><i class="bi bi-telephone-fill"></i> <br>Contact</h5>
-                                    <p>+88123-4647-98767</p>
-                                    <p>+88123-4647-98778</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
+    <section class="map-section py-5 sec4" data-aos="zoom-in" data-aos-duration="1000">
+      <div class="container-fluid" style="padding-left: 10%; padding-right: 10%;">
+        <div class="map-wrap">
+          <div id="map" style="height: 500px;"></div>
         </div>
-      </section>    
+      </div>
+    </section>
 
-      <section class="map-section py-5 sec4" data-aos="zoom-in" data-aos-duration="1000">
-        <div class="container-fluid" style="padding-left: 10%; padding-right: 10%;">
-          <div class="map-wrap">
-            <div id="map" style="height: 500px;"></div>
-          </div>
-        </div>
-      </section>
-
-      <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <!-- Título y formulario a la izquierda -->
-                <div class="col-md-6">
-                    <h3>Lorem ipsum dolor sit amet consectetur adipiscing, elit at aenean rutrum.</h3>
-                    <form action="#" method="POST" class="d-flex">
-                        <div class="mb-3 w-100">
-                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-                        </div>
-                        <button type="submit" class="btn btn-outline-secondary">Subscribe</button>
-                    </form>
-                </div>
-    
-                <!-- Menú, Redes Sociales y Temas a la derecha -->
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h5>Menu</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="./index.html">Home</a></li>
-                                <li><a href="./about.html">About Us</a></li>
-                                <li><a href="./services.html">Services</a></li>
-                                <li><a href="./blog.html">Blog</a></li>
-                                <li><a href="./contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-    
-                        <div class="col-md-6">
-                            <h5>Follow Us</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="#">Facebook</a></li>
-                                <li><a href="#">Twitter</a></li>
-                                <li><a href="#">Instagram</a></li>
-                                <li><a href="#">Linkedin</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    
-            <!-- Divisor -->
-            <hr class="my-4">
-    
-            <!-- Sección de Copyright -->
-            <div class="text-center">
-                <p>&copy; 2025. Chiara Valenzuela.</p>
-            </div>
-        </div>
-      </footer>
+    <footer class="footer">
+      <div class="container">
+          <div class="row">
+              <!-- Título y formulario a la izquierda -->
+              <div class="col-md-6">
+                  <h3>Lorem ipsum dolor sit amet consectetur adipiscing, elit at aenean rutrum.</h3>
+                  <form action="#" method="POST" class="d-flex">
+                      <div class="mb-3 w-100">
+                          <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                      </div>
+                      <button type="submit" class="btn btn-outline-secondary">Subscribe</button>
+                  </form>
+              </div>
   
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-      <script> AOS.init(); </script>
-      <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-      <script src="../js/contact.js"></script>
+              <!-- Menú, Redes Sociales y Temas a la derecha -->
+              <div class="col-md-6">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <h5>Menu</h5>
+                          <ul class="list-unstyled">
+                              <li><a href="./index.html">Home</a></li>
+                              <li><a href="./about.html">About Us</a></li>
+                              <li><a href="./services.html">Services</a></li>
+                              <li><a href="./blog.html">Blog</a></li>
+                              <li><a href="./contact.html">Contact</a></li>
+                          </ul>
+                      </div>
+  
+                      <div class="col-md-6">
+                          <h5>Follow Us</h5>
+                          <ul class="list-unstyled">
+                              <li><a href="#">Facebook</a></li>
+                              <li><a href="#">Twitter</a></li>
+                              <li><a href="#">Instagram</a></li>
+                              <li><a href="#">Linkedin</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Divisor -->
+          <hr class="my-4">
+  
+          <!-- Sección de Copyright -->
+          <div class="text-center">
+              <p>&copy; 2025. Chiara Valenzuela.</p>
+          </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script> AOS.init(); </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="../js/contact.js"></script>
   </body>
 </html>

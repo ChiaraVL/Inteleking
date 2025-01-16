@@ -23,8 +23,8 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-md">
-        <div class="container-fluid justify-content-center">
-          <div class="d-flex align-items-center border-end pe-5">
+        <div class="container justify-content-center">
+          <div class="d-flex align-items-center pe-5">
             <a class="navbar-brand" href="./index.html" id="Logo">
               <img src="https://via.placeholder.com/30x30?text=Logo" alt="Logo">
               Lorem
@@ -33,7 +33,7 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNav">
+          <div class="collapse navbar-collapse bs be justify-content-center align-items-center" id="navbarNav">
               <ul class="navbar-nav align-items-center">
                 <li class="nav-item">
                   <a class="nav-link" href="./index.html">Home</a>
@@ -52,7 +52,7 @@
                 </li>
               </ul>
           </div>
-            <form class="d-flex search-form border-start ps-5" role="search">
+            <form class="d-flex search-form ps-5" role="search">
               <i class="bi bi-search"></i>
               <input class="form-control me-2" type="search" placeholder="Search here..." aria-label="Search">
             </form>
@@ -64,9 +64,9 @@
       </section>
 
       <section class="container-fluid py-5 sec2">
-        <div class="row d-flex align-items-center">
+        <div class="row d-flex align-items-center" style="padding-left: 8%; padding-right: 8%;">
             <!-- Columna izquierda (Título + 3 párrafos) -->
-            <div class="col-md-4" style="margin-left: 5%;" data-aos="fade-right" data-aos-duration="1000">
+            <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
                 <h3>Lorem ipsum dolor sit amet</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -79,22 +79,22 @@
             </div>
     
             <!-- Columna derecha (Párrafo y cifras en fila) -->
-            <div class="col-md-4 d-flex flex-column" style="margin-right: 5%;" data-aos="fade-left" data-aos-duration="1000">
+            <div class="col-md-4 d-flex flex-column" data-aos="fade-left" data-aos-duration="1000">
                 <p>Nullam ac erat vel augue tincidunt convallis. In nec urna euismod, varius nunc id, vestibulum leo. Vivamus in tincidunt risus, ut pretium metus. Suspendisse potenti.</p>
     
                 <!-- Cifras en fila -->
-                <div class="row text-center mt-4">
+                <div class="row text-center mt-4 align-items-center justify-content-center">
                     <div class="col">
                         <h3 class="num"><span class="count" data-target="150">0</span>+</h3>
-                        <p>Projects</p>
+                        <p class="sub">Projects</p>
                     </div>
                     <div class="col">
                         <h3 class="num"><span class="count" data-target="500">0</span>+</h3>
-                        <p>Clients</p>
+                        <p class="sub">Clients</p>
                     </div>
                     <div class="col">
                         <h3 class="num"><span class="count" data-target="10">0</span>+</h3>
-                        <p class="justify-content-center">Years</p>
+                        <p class="sub justify-content-center">Years</p>
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@
         </div>
       
         <!-- Imágenes con título y subtítulo -->
-        <div class="row text-center" style="margin-left: 5%; margin-right: 5%;">
+        <div class="row text-center" style="padding-left: 5%; padding-right: 5%;">
           <!-- Imagen 1 -->
           <div class="col-md-3" data-aos="fade-up" data-aos-duration="500">
             <img src="https://picsum.photos/200/300?random=2" alt="Project 1" class="img-fluid rounded-pill transform-img mb-3">
@@ -140,15 +140,15 @@
       </section>
       
       <section class="container-fluid py-5 sec4">
-        <div class="row align-items-center">
+        <div class="row align-items-center" style="padding-left: 10%; padding-right: 10%;" >
           <!-- Columna izquierda -->
-          <div class="col-md-6 d-flex flex-column align-items-start" style="padding-left: 10%;" data-aos="fade-right" data-aos-duration="500">
+          <div class="col-md-6 d-flex flex-column align-items-start" data-aos="fade-right" data-aos-duration="500">
             <h2>Our Vision</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
           </div>
       
           <!-- Columna derecha -->
-          <div class="col-md-6 d-flex flex-column" style="padding-right: 10%;" data-aos="fade-left" data-aos-duration="500">
+          <div class="col-md-6 d-flex flex-column" data-aos="fade-left" data-aos-duration="500">
             <p>
               "Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. 
               Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla."
@@ -382,6 +382,7 @@
   
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js"></script>
       <script> AOS.init(); </script>
       <script src="../js/about.js"></script>
     </body>

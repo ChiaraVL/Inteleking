@@ -11,7 +11,7 @@ const blogs = [
     { title: "Nunc sed", description: "Proin consequat pharetra nisl nunc, nec vehicula feugiat.", image: "https://picsum.photos/350/200?random=10" },
     { title: "Mauris ornare", description: "Pellentesque mollis est at libero posuere dapibus justo volutpat.", image: "https://picsum.photos/350/200?random=11" },
     { title: "Aenean viverra", description: "Nulla facilisi quisque varius vehicula magna erat gravida.", image: "https://picsum.photos/350/200?random=12" },
-  ];
+];
 
 const blogsPerPage = 9; // Blogs por página
 const blogContainer = document.getElementById("blogContainer");

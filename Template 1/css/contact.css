@@ -1,7 +1,16 @@
-body {
-    font-family: "Nunito Sans", sans-serif;
-    margin: 0;
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
     overflow-x: hidden;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .sec1 {
@@ -93,7 +102,6 @@ body {
     border-color: #343a40;
 }
 
-
 .card-link {
     display: block;
     text-decoration: none;
@@ -110,12 +118,53 @@ body {
 }
 
 @media (max-width: 768px) {
+    .sec1 h1 {
+        font-size: 48px;
+    }
+
+    .sec2 h2 {
+        font-size: 36px; 
+    }
+
+    .sec2 .form-control {
+        font-size: 18px;
+    }
+
+    .btn1 {
+        font-size: 18px;
+    }
+
+    .sec3 h5 {
+        font-size: 24px;  
+    }
+
+    .sec3 p {
+        font-size: 16px;  
+    }
+
     .card-body .row {
         flex-direction: column;
     }
 
     .card-body .col-md-4 {
-        padding: 0;
         text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .sec1 h1 {
+        font-size: 36px; 
+    }
+
+    .sec2 h2 {
+        font-size: 28px;
+    }
+
+    .sec3 h5 {
+        font-size: 20px;  
+    }
+
+    .sec3 p {
+        font-size: 14px;  
     }
 }
