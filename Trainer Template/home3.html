@@ -49,7 +49,7 @@
             </div>
             
             <!-- Pop-up de contacto -->
-            <div id="contact-popup" class="popup-overlay">
+            <div id="contact-popup" class="popup-overlay" style="display: none;">
                 <div class="popup-content">
                     <span class="popup-close">&times;</span>
                     <h2>Contact With Me</h2>
@@ -59,12 +59,12 @@
                         <input type="tel" id="phone" name="phone" placeholder="Phone" required>
                         <input type="text" id="subject" name="subject" placeholder="Subject Of Request" required>
                         <textarea id="message" name="message" required placeholder="Message"></textarea>
-
+            
                         <div class="btn-box fade_bottom" data-aos="fade-up" data-aos-duration="600" style="display: block; padding-top: 10px;">
-                            <a type="submit" class="def-btn btn-hover def-btn-10">
+                            <button type="submit" class="def-btn btn-hover def-btn-10">
                                 <span class="dot"></span>
                                 <span class="txt">Submit Now <i class="fa-solid fa-arrow-right"></i></span>
-                            </a>
+                            </button>
                         </div>
                     </form>
                 </div>
@@ -82,8 +82,8 @@
                         <i class="fa-solid fa-bars"></i>
                         Menu
                     </button>
-                    <button class="banner-10-search-box" style="opacity: 1; transform: none;">
-                        <i class="fa-solid fa-search"></i>
+                    <button id="Contact2" class="banner-10-search-box">
+                        <i class="fa-solid fa-envelope"></i>
                     </button>
                 </div>
                 <div class="container">
@@ -91,7 +91,7 @@
                         <div class="col-lg-8">
                             <div class="banner-txt">
                                 <h4 class="pc-title-left">
-                                    <div class="animated-text-gsap ">
+                                    <div class="animated-text-gsap title">
                                         <div class="word" style="display: inline-block;">
                                             <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;">B</div>
                                             <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">r</div>
@@ -115,11 +115,12 @@
                                 </h4>
                                 <span class="tag pc-title-left" style="opacity: 1; transform: none;">Professional</span>
                                 <h1 class="pc-title-left">
-                                    <div class="animated-text-gsap">
+                                    <div class="animated-text-gsap title2">
                                         <div class="word" style="display: inline-block;">
                                             <div class="char" data-aos="fade-left" data-aos-duration="600" style="display: inline-block;">I</div>
                                             <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">'</div>
                                             <div class="char" data-aos="fade-left" data-aos-delay="200" data-aos-duration="300" style="display: inline-block;">m</div>
+                                            <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div>
                                         </div>
                                         <span class="color" style="display: inline-block; position: relative;">
                                             <div class="word" style="display: inline-block;">
@@ -204,7 +205,7 @@
                             <div class="row align-items-center gy-5">
                                 <div class="col-md-6 col-12" style="opacity: 1;">
                                     <h2 class="title-anim">
-                                        <div class="animated-text-gsap">
+                                        <div class="animated-text-gsap title">
                                             <div class="word" style="display: inline-block;">
                                                 <div class="char" data-aos="fade-left" data-aos-duration="600" style="display: inline-block;">m</div>
                                                 <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">y</div>
@@ -301,7 +302,7 @@
                                 <div class="about-txt-10">
                                     <div class="section-heading-8 section-heading-10" style="opacity: 1;">
                                         <h2 class="title-anim">
-                                            <div class="animated-text-gsap">
+                                            <div class="animated-text-gsap title">
                                                 <!-- Palabra "about" -->
                                                 <div class="word" style="display: inline-block;">
                                                     <div class="char" data-aos="fade-left" data-aos-duration="600" style="display: inline-block;">a</div>
@@ -399,7 +400,7 @@
                             <div class="row align-items-center row-gap-lg-0 row-gap-5 ">
                                 <div class="col-lg-6" style="opacity: 1;">
                                     <h2 class="title-anim">
-                                        <div class="animated-text-gsap">
+                                        <div class="animated-text-gsap title">
                                             <!-- Palabra "my" -->
                                             <div class="word" style="display: inline-block;">
                                                 <div class="char" data-aos="fade-left" data-aos-duration="600" style="display: inline-block;">m</div>
@@ -453,7 +454,7 @@
                                     <div class="single-program-box">
                                         <div class="part-txt title-anim" style="opacity: 1; transform: none;">
                                             <h3 class="program-title">
-                                                <div class="animated-text-gsap ">
+                                                <div class="animated-text-gsap normal">
                                                     <div class="word" style="display: inline-block;">
                                                         <div class="char" data-aos="fade-left" data-aos-delay="200" data-aos-duration="300" style="display: inline-block;">A</div>
                                                         <div class="char" data-aos="fade-left" data-aos-delay="300" data-aos-duration="300" style="display: inline-block;">e</div>
@@ -496,12 +497,13 @@
                                     <div class="single-program-box">
                                         <div class="part-txt title-anim" style="opacity: 1; transform: none;">
                                             <h3 class="program-title">
-                                                <div class="animated-text-gsap ">
+                                                <div class="animated-text-gsap normal">
                                                     <div class="word" style="display: inline-block;">
                                                         <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;">B</div>
                                                         <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">o</div>
                                                         <div class="char" data-aos="fade-left" data-aos-delay="200" data-aos-duration="300" style="display: inline-block;">d</div>
                                                         <div class="char" data-aos="fade-left" data-aos-delay="300" data-aos-duration="300" style="display: inline-block;">y</div>
+                                                        <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div>
                                                     </div> 
                                                     <div class="word" style="display: inline-block;">
                                                         <div class="char" data-aos="fade-left" data-aos-delay="400" data-aos-duration="300" style="display: inline-block;">p</div>
@@ -541,7 +543,7 @@
                                     <div class="single-program-box">
                                         <div class="part-txt title-anim" style="opacity: 1; transform: none;">
                                             <h3 class="program-title">
-                                                <div class="animated-text-gsap ">
+                                                <div class="animated-text-gsap normal">
                                                     <div class="word" style="display: inline-block;">
                                                         <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;">I</div>
                                                         <div class="char" data-aos="fade-left" data-aos-delay="200" data-aos-duration="300" style="display: inline-block;">n</div>
@@ -549,6 +551,7 @@
                                                         <div class="char" data-aos="fade-left" data-aos-delay="400" data-aos-duration="300" style="display: inline-block;">o</div>
                                                         <div class="char" data-aos="fade-left" data-aos-delay="500" data-aos-duration="300" style="display: inline-block;">o</div>
                                                         <div class="char" data-aos="fade-left" data-aos-delay="600" data-aos-duration="300" style="display: inline-block;">r</div>
+                                                        <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div>
                                                     </div> 
                                                     <div class="word" style="display: inline-block;">
                                                         <div class="char" data-aos="fade-left" data-aos-delay="200" data-aos-duration="300" style="display: inline-block;">c</div>
@@ -591,7 +594,7 @@
                                     <div class="single-program-box">
                                         <div class="part-txt title-anim" style="opacity: 1; transform: none;">
                                             <h3 class="program-title">
-                                                <div class="animated-text-gsap ">
+                                                <div class="animated-text-gsap normal">
                                                     <div class="word" style="display: inline-block;">
                                                         <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">Z</div>
                                                         <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">u</div>
@@ -631,60 +634,61 @@
                                     <div class="single-program-box">
                                         <div class="part-txt title-anim" style="opacity: 1; transform: none;">
                                             <h3 class="program-title">
-                                                <div class="animated-text-gsap ">
+                                                <div class="animated-text-gsap normal">
                                                     <div class="word" style="display: inline-block;">
-                                                        <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">Y</div>
-                                                        <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">o</div>
-                                                        <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">g</div>
-                                                        <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">a</div>
+                                                        <div class="char" data-aos="fade-left" data-aos-delay="200" data-aos-duration="300" style="display: inline-block;">Y</div>
+                                                        <div class="char" data-aos="fade-left" data-aos-delay="300" data-aos-duration="300" style="display: inline-block;">o</div>
+                                                        <div class="char" data-aos="fade-left" data-aos-delay="400" data-aos-duration="300" style="display: inline-block;">g</div>
+                                                        <div class="char" data-aos="fade-left" data-aos-delay="500" data-aos-duration="300" style="display: inline-block;">a</div>
                                                     </div>
-                                                </div> 
+                                                </div>                                                
                                                 <span data-aos="fade-right" data-aos-duration="600">05</span>
                                             </h3>
-                                        <div class="row align-items-center">
-                                            <div class="col-9">
-                                                <p class="">
-                                                    <div class="line" data-aos="fade-up" data-aos-duration="600" style="display: block; color: #c6c3c3;">
-                                                        Aerobics is a form of cardiovascular exercise that involves a
-                                                    </div>
-                                                    <div class="line" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600" style="display: block; color: #c6c3c3;">
-                                                        combination of rhythmic movements.
-                                                    </div>
-                                                </p>
+                                            <div class="row align-items-center">
+                                                <div class="col-9">
+                                                    <p class="">
+                                                        <div class="line" data-aos="fade-up" data-aos-duration="600" style="display: block; color: #c6c3c3;">
+                                                            Aerobics is a form of cardiovascular exercise that involves a
+                                                        </div>
+                                                        <div class="line" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600" style="display: block; color: #c6c3c3;">
+                                                            combination of rhythmic movements.
+                                                        </div>
+                                                    </p>
+                                                </div>
+                                                <div class="col-3">
+                                                    <a href="#" class="view-btn"  data-aos="fade" data-aos-duration="600">
+                                                        <i class="fa-light fa-arrow-down-right"></i>
+                                                    </a>
+                                                </div>
                                             </div>
-                                            <div class="col-3">
-                                                <a href="#" class="view-btn" data-aos="fade" data-aos-duration="600">
-                                                    <i class="fa-light fa-arrow-down-right"></i>
-                                                </a>
-                                            </div>
+                                        </div>
+                                        <div class="part-img" data-aos="fade-left" data-aos-duration="800">
+                                            <a role="button" class="image-popup-trigger">
+                                                <img src="./img/training-program-5.png" alt="image">
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="part-img" data-aos="fade-left" data-aos-duration="800">
-                                    <a role="button" class="image-popup-trigger">
-                                        <img src="./img/training-program-5.png" alt="image">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="training-program-col fade_bottom">
-                                <div class="single-program-box">
-                                    <div class="part-txt title-anim" style="opacity: 1; transform: none;">
-                                        <h3 class="program-title">
-                                            <div class="animated-text-gsap ">
-                                                <div class="word" style="display: inline-block;">
-                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;">C</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="200" data-aos-duration="300" style="display: inline-block;">r</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="300" data-aos-duration="300" style="display: inline-block;">o</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="400" data-aos-duration="300" style="display: inline-block;">s</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="500" data-aos-duration="300" style="display: inline-block;">s</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="600" data-aos-duration="300" style="display: inline-block;">f</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="700" data-aos-duration="300" style="display: inline-block;">i</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="800" data-aos-duration="300" style="display: inline-block;">t</div>
+                                <div class="training-program-col fade_bottom">
+                                    <div class="single-program-box">
+                                        <div class="part-txt title-anim" style="opacity: 1; transform: none;">
+                                            <h3 class="program-title">
+                                                <div class="animated-text-gsap normal">
+                                                    <div class="word" style="display: inline-block;">
+                                                        <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;">C</div>
+                                                        <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">r</div>
+                                                        <div class="char" data-aos="fade-left" data-aos-delay="200" data-aos-duration="300" style="display: inline-block;">o</div>
+                                                        <div class="char" data-aos="fade-left" data-aos-delay="300" data-aos-duration="300" style="display: inline-block;">s</div>
+                                                        <div class="char" data-aos="fade-left" data-aos-delay="400" data-aos-duration="300" style="display: inline-block;">s</div>
+                                                        <div class="char" data-aos="fade-left" data-aos-delay="500" data-aos-duration="300" style="display: inline-block;">f</div>
+                                                        <div class="char" data-aos="fade-left" data-aos-delay="600" data-aos-duration="300" style="display: inline-block;">i</div>
+                                                        <div class="char" data-aos="fade-left" data-aos-delay="700" data-aos-duration="300" style="display: inline-block;">t</div>
+                                                    </div>
                                                 </div>
-                                            </div> 
-                                            <span data-aos="fade-right" data-aos-duration="600">06</span>
-                                        </h3>
-                                        <div class="row align-items-center">
+                                                <span data-aos="fade-right" data-aos-duration="600">06</span>
+                                            </h3>
+                                        </div> 
+                                        <div class="row align-items-center" style="margin-top: -50px;">
                                             <div class="col-9">
                                                 <p class="">
                                                     <div class="line" data-aos="fade-up" data-aos-duration="600" style="display: block; color: #c6c3c3;">
@@ -696,20 +700,26 @@
                                                 </p>
                                             </div>
                                             <div class="col-3">
-                                                <a href="#" class="view-btn" data-aos="fade" data-aos-duration="600">
+                                                <a href="#" class="view-btn">
                                                     <i class="fa-light fa-arrow-down-right"></i>
                                                 </a>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="part-img" data-aos="fade-left" data-aos-duration="800">
-                                        <a role="button" class="image-popup-trigger">
-                                            <img class="image-popup-trigger" src="./img/training-program-6.png" alt="image">
-                                        </a>
+                                            <div class="col-12 part-img" data-aos="fade-left" data-aos-duration="800">
+                                                <a role="button" class="image-popup-trigger">
+                                                    <img src="./img/training-program-6.png" alt="image">
+                                                </a>
+                                            </div>
+                                        </div>                                        
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="section-btn-10 justify-content-center fade_bottom" data-aos="fade-right" data-aos-duration="1000">
+                        <a href="#" class="def-btn btn-hover def-btn-10">
+                            <span class="dot"></span>
+                            <span class="txt">View All <i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
                     </div>
                 </div>
                 <div id="image-popup" class="image-popup">
@@ -717,12 +727,6 @@
                         <span class="image-popup-close">&times;</span>
                         <img id="popup-image" src="" alt="Popup Image">
                     </div>
-                </div>
-                <div class="section-btn-10 justify-content-center fade_bottom" data-aos="fade-right" data-aos-duration="1000">
-                    <a href="#" class="def-btn btn-hover def-btn-10">
-                        <span class="dot"></span>
-                        <span class="txt">View All <i class="fa-solid fa-arrow-right"></i></span>
-                    </a>
                 </div>
             </section>
             <section>
@@ -732,7 +736,7 @@
                             <div class="col-xl-7 col-lg-6">
                                 <div class="section-heading-8 section-heading-10 text-center" style="opacity: 1;">
                                     <h2 class="mb-4">
-                                        <div class="animated-text-gsap ">
+                                        <div class="animated-text-gsap title ">
                                             <div class="word" style="display: inline-block;">
                                                 <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;">C</div>
                                                 <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">l</div>
@@ -847,7 +851,7 @@
                             <div class="row align-items-center row-gap-lg-0 row-gap-5">
                                 <div class="col-lg-7" style="opacity: 1;">
                                     <h2 class="title-anim">
-                                        <div class="animated-text-gsap ">
+                                        <div class="animated-text-gsap title ">
                                             <div class="word" style="display: inline-block;">
                                                 <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;">W</div>
                                                 <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">a</div>
@@ -930,7 +934,7 @@
                                 <div class="faq-10">
                                     <div class="section-heading-8 section-heading-10" style="opacity: 1;">
                                         <h2>
-                                            <div class="animated-text-gsap ">
+                                            <div class="animated-text-gsap title">
                                                 <div class="word" style="display: inline-block;">
                                                     <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;">e</div>
                                                     <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">x</div>
@@ -973,7 +977,7 @@
                                         <div class="accordion-item">
                                           <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                <div class="animated-text-gsap ">
+                                                <div class="animated-text-gsap subtitle">
                                                     <div class="word" style="display: inline-block;">
                                                         <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;">H</div>
                                                         <div class="char" data-aos="fade-left" data-aos-delay="200" data-aos-duration="300" style="display: inline-block;">o</div>
@@ -1028,7 +1032,7 @@
                                         <div class="accordion-item">
                                           <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                <div class="animated-text-gsap ">
+                                                <div class="animated-text-gsap subtitle">
                                                     <div class="word" style="display: inline-block;">
                                                         <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;">W</div>
                                                         <div class="char" data-aos="fade-left" data-aos-delay="200" data-aos-duration="300" style="display: inline-block;">h</div>
@@ -1085,7 +1089,7 @@
                                                         <div class="char" data-aos="fade-left" data-aos-delay="2500" data-aos-duration="300" style="display: inline-block;">k</div>
                                                     </div> 
                                                     <div class="word" style="display: inline-block;">
-                                                        <div class="char" data-aos="fade-left" data-aos-delay="500" data-aos-duration="300" style="display: inline-block;"> </div>
+                                                        <div class="char"  data-aos="fade-left" data-aos-delay="500" data-aos-duration="300" style="display: inline-block;"> </div>
                                                         <div class="char" data-aos="fade-left" data-aos-delay="500" data-aos-duration="300" style="display: inline-block;"> </div>
                                                         <div class="char" data-aos="fade-left" data-aos-delay="2600" data-aos-duration="300" style="display: inline-block;">o</div>
                                                         <div class="char" data-aos="fade-left" data-aos-delay="2700" data-aos-duration="300" style="display: inline-block;">u</div>
@@ -1104,7 +1108,7 @@
                                         <div class="accordion-item">
                                           <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                                <div class="animated-text-gsap ">
+                                                <div class="animated-text-gsap subtitle">
                                                     <div class="word" style="display: inline-block;">
                                                         <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;">H</div>
                                                         <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">o</div>
@@ -1165,7 +1169,7 @@
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
                                               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                                <div class="animated-text-gsap ">
+                                                <div class="animated-text-gsap subtitle">
                                                     <div class="word" style="display: inline-block;">
                                                         <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;">H</div>
                                                         <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">o</div>
@@ -1255,7 +1259,7 @@
                                         </div>
                                         <div class="plan-txt">
                                             <h3 class="plan-title">
-                                                <div class="animated-text-gsap ">
+                                                <div class="animated-text-gsap normal">
                                                     <div class="word" style="display: inline-block;">
                                                         <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;">P</div>
                                                         <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">e</div>
@@ -1303,7 +1307,7 @@
                                         </div>
                                         <div class="plan-txt">
                                             <h3 class="plan-title">
-                                                <div class="animated-text-gsap ">
+                                                <div class="animated-text-gsap normal">
                                                     <div class="word" style="display: inline-block;">
                                                         <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;">A</div>
                                                         <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">n</div>
@@ -1347,7 +1351,7 @@
                                         </div>
                                         <div class="plan-txt">
                                             <h3 class="plan-title">
-                                                <div class="animated-text-gsap ">
+                                                <div class="animated-text-gsap normal">
                                                     <div class="word" style="display: inline-block;">
                                                         <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;">L</div>
                                                         <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">i</div>
@@ -1413,7 +1417,7 @@
                             <div class="row align-items-center row-gap-lg-0 row-gap-5">
                                 <div class="col-lg-7" style="opacity: 1;">
                                     <h2 class="title-anim">
-                                        <div class="animated-text-gsap ">
+                                        <div class="animated-text-gsap title ">
                                             <div class="word" style="display: inline-block;">
                                                 <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;">m</div>
                                                 <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">y</div>
@@ -1483,7 +1487,7 @@
                             <div class="col-lg-6">
                                 <div class="section-heading-8 section-heading-10 text-center" style="opacity: 1;">
                                     <h2 class="mb-4">
-                                        <div class="animated-text-gsap ">
+                                        <div class="animated-text-gsap title ">
                                             <div class="word" style="display: inline-block;">
                                                 <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;">s</div>
                                                 <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">t</div>
@@ -1512,8 +1516,8 @@
                         </div>
                         <div class="testimonial-8-slider-wrap fade_bottom">
                             <div class="slick-slider testimonial-8-slider slick-vertical">
-                                <div class="slick-list">
-                                    <div class="slick-track">
+                                <div class="slick-list" style="width: 100% !important;">
+                                    <div class="slick-track" style="width: 100% !important;">
                                         <div class="slick-slide">
                                             <div class="single-testimonial">
                                                 <div class="row justify-content-end">
@@ -1532,7 +1536,7 @@
                                                                     </p>
                                                                     <div class="client-area">
                                                                         <h3 class="client-name">
-                                                                            <div class="animated-text-gsap">
+                                                                            <div class="animated-text-gsap normal">
                                                                                 <div class="word">
                                                                                     <div class="char">A</div>
                                                                                     <div class="char">l</div>
@@ -1578,53 +1582,7 @@
                                                                     </p>
                                                                     <div class="client-area">
                                                                         <h3 class="client-name">
-                                                                            <div class="animated-text-gsap">
-                                                                                <div class="word">
-                                                                                    <div class="char">S</div>
-                                                                                    <div class="char">o</div>
-                                                                                    <div class="char">p</div>
-                                                                                    <div class="char">h</div>
-                                                                                    <div class="char">i</div>
-                                                                                    <div class="char">a</div>
-                                                                                </div>
-                                                                                <div class="word">
-                                                                                    <div class="char">M</div>
-                                                                                    <div class="char">i</div>
-                                                                                    <div class="char">l</div>
-                                                                                    <div class="char">l</div>
-                                                                                    <div class="char">e</div>
-                                                                                    <div class="char">r</div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </h3>
-                                                                        <span>Product Developer</span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="slick-slide">
-                                            <div class="single-testimonial">
-                                                <div class="row">
-                                                    <div class="col-lg-8">
-                                                        <div class="row align-items-center">
-                                                            <div class="col-4">
-                                                                <div class="part-img">
-                                                                    <img src="./img/t10_2.png" alt="Image">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-8">
-                                                                <div class="part-txt">
-                                                                    <span class="part-icon"><i class="fa-solid fa-quote-right"></i></span>
-                                                                    <p>
-                                                                        "Great job on the recent blog post on 'The Benefits of Meditation. Your writing style is engaging, and the research is well-done."
-                                                                    </p>
-                                                                    <div class="client-area">
-                                                                        <h3 class="client-name">
-                                                                            <div class="animated-text-gsap">
+                                                                            <div class="animated-text-gsap normal">
                                                                                 <div class="word">
                                                                                     <div class="char">S</div>
                                                                                     <div class="char">o</div>
@@ -1666,7 +1624,7 @@
                             <div class="col-lg-6">
                                 <div class="section-heading-8 section-heading-10 text-center" style="opacity: 1;">
                                     <h2 class="mb-4">
-                                        <div class="animated-text-gsap ">
+                                        <div class="animated-text-gsap title">
                                             <div class="word" style="display: inline-block;">
                                                 <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;">A</div>
                                                 <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">r</div>
@@ -1706,7 +1664,7 @@
                                     <div class="part-txt title-anim" style="opacity: 1; transform: none;">
                                         <span class="blog-category">Nutrition</span>
                                         <h3 class="blog-title">
-                                            <a role="button"><div class="animated-text-gsap ">
+                                            <a role="button"><div class="animated-text-gsap normal">
                                                 <div class="word" style="display: inline-block;">
                                                     <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;">G</div>
                                                     <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">e</div>
@@ -1804,98 +1762,93 @@
                         <div class="col-lg-6 col-sm-10 col-12">
                             <div class="single-blog-card" data-aos="fade-up" data-aos-duration="1000">
                                 <div class="part-img fade_bottom" role="button" style="opacity: 1; transform: none;">
-                                    <img src="./img/blog10-2.png" alt="image">
-                                    <span class="date"><span>22</span>Jan</span>
+                                    <img src="./img/blog10-4.png" alt="image">
+                                    <span class="date"><span>23</span>Jan</span>
                                 </div>
                                 <div class="part-txt title-anim" style="opacity: 1; transform: none;">
-                                    <span class="blog-category">Health</span>
+                                    <span class="blog-category">Fitness</span>
                                     <h3 class="blog-title">
                                         <a role="button">
-                                            <div class="animated-text-gsap ">
+                                            <div class="animated-text-gsap normal">
                                                 <div class="word" style="display: inline-block;">
                                                     <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">T</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">h</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">a</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">b</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">a</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">t</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">a</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">-</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">s</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">t</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">y</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">l</div>
                                                     <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">e</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div>
+                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div></div> 
+                                                <div class="word" style="display: inline-block;">
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">W</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">o</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">r</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">k</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">o</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">u</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">t</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">s</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">:</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div>
+                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div></div> 
+                                                <div class="word" style="display: inline-block;">
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">1</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">2</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div>
+                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div></div> 
+                                                <div class="word" style="display: inline-block;">
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">M</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">i</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">n</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">u</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">t</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">e</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">s</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div>
+                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div></div> 
+                                                <div class="word" style="display: inline-block;">
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">t</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">o</div>
                                                     <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div>
                                                     <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div></div> 
                                                 <div class="word" style="display: inline-block;">
                                                     <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">B</div>
                                                     <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">e</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">s</div>
                                                     <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">t</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div>
-                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div></div> 
-                                                <div class="word" style="display: inline-block;">
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">E</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">x</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">t</div>
                                                     <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">e</div>
                                                     <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">r</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">c</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">i</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">s</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">e</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">s</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div>
-                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div></div> 
-                                                <div class="word" style="display: inline-block;">
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">F</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">o</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">r</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div>
-                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div></div> 
-                                                <div class="word" style="display: inline-block;">
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">R</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">h</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">e</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">u</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">m</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">a</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">t</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">o</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">i</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">d</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div>
-                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div></div> 
-                                                <div class="word" style="display: inline-block;">
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">A</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">r</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">t</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">h</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">r</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">i</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">t</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">i</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">s</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div>
-                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div></div> 
-                                                <div class="word" style="display: inline-block;">
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">A</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">t</div>
                                                     <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div>
                                                     <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div></div> 
                                                 <div class="word" style="display: inline-block;">
                                                     <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">H</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">o</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">m</div>
                                                     <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">e</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">a</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">l</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">t</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">h</div>
                                                     <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div>
                                                     <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div></div> 
                                                 <div class="word" style="display: inline-block;">
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">A</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">a</div>
                                                     <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">n</div>
                                                     <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">d</div>
                                                     <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div>
                                                     <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div></div> 
                                                 <div class="word" style="display: inline-block;">
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">T</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">h</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">F</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">i</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">t</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">n</div>
                                                     <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">e</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div>
-                                                    <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div></div> 
-                                                <div class="word" style="display: inline-block;">
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">G</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">y</div>
-                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">m</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">s</div>
+                                                    <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">s</div>
                                                 </div>
                                             </div>
                                             <i class="fa-solid fa-arrow-right"></i>
@@ -1914,7 +1867,7 @@
                                     <span class="blog-category">Exercise</span>
                                     <h3 class="blog-title">
                                         <a role="button">
-                                            <div class="animated-text-gsap ">
+                                            <div class="animated-text-gsap normal">
                                                 <div class="word" style="display: inline-block;">
                                                     <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">A</div>
                                                     <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">r</div>
@@ -2004,7 +1957,7 @@
                                     <span class="blog-category">Fitness</span>
                                     <h3 class="blog-title">
                                         <a role="button">
-                                            <div class="animated-text-gsap ">
+                                            <div class="animated-text-gsap normal">
                                                 <div class="word" style="display: inline-block;">
                                                     <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">T</div>
                                                     <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">a</div>
@@ -2152,36 +2105,36 @@
                         <div class="row justify-content-between gx-0 gy-lg-0 gy-4">
                             <div class="col-lg-5" style="opacity: 1; transform: none;">
                                 <h2 class="footer-9-title title-anim">
-                                    <div class="animated-text-gsap ">
+                                    <div class="animated-text-gsap normal">
                                         <div class="word" style="display: inline-block;">
                                             <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">L</div>
-                                            <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">e</div>
-                                            <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">t</div>
-                                            <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">'</div>
-                                            <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">s</div>
+                                            <div class="char" data-aos="fade-left" data-aos-delay="200" data-aos-duration="300" style="display: inline-block;">e</div>
+                                            <div class="char" data-aos="fade-left" data-aos-delay="300" data-aos-duration="300" style="display: inline-block;">t</div>
+                                            <div class="char" data-aos="fade-left" data-aos-delay="400" data-aos-duration="300" style="display: inline-block;">'</div>
+                                            <div class="char" data-aos="fade-left" data-aos-delay="500" data-aos-duration="300" style="display: inline-block;">s</div>
                                             <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div>
                                             <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div></div> 
                                         <div class="word" style="display: inline-block;">
-                                            <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">T</div>
-                                            <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">a</div>
-                                            <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">l</div>
-                                            <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">k</div>
+                                            <div class="char" data-aos="fade-left" data-aos-delay="600" data-aos-duration="300" style="display: inline-block;">T</div>
+                                            <div class="char" data-aos="fade-left" data-aos-delay="700" data-aos-duration="300" style="display: inline-block;">a</div>
+                                            <div class="char" data-aos="fade-left" data-aos-delay="800" data-aos-duration="300" style="display: inline-block;">l</div>
+                                            <div class="char" data-aos="fade-left" data-aos-delay="900" data-aos-duration="300" style="display: inline-block;">k</div>
                                             <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div>
                                             <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div></div> 
                                         <div class="word" style="display: inline-block;">
-                                            <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">W</div>
-                                            <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">i</div>
-                                            <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">t</div>
-                                            <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">h</div>
+                                            <div class="char" data-aos="fade-left" data-aos-delay="1000" data-aos-duration="300" style="display: inline-block;">W</div>
+                                            <div class="char" data-aos="fade-left" data-aos-delay="1100" data-aos-duration="300" style="display: inline-block;">i</div>
+                                            <div class="char" data-aos="fade-left" data-aos-delay="1200" data-aos-duration="300" style="display: inline-block;">t</div>
+                                            <div class="char" data-aos="fade-left" data-aos-delay="1300" data-aos-duration="300" style="display: inline-block;">h</div>
                                             <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div>
                                             <div class="char" data-aos="fade-left" data-aos-duration="300" style="display: inline-block;"> </div></div> 
                                         <div class="word" style="display: inline-block;">
-                                            <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">M</div>
-                                            <div class="char" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300" style="display: inline-block;">e</div>
+                                            <div class="char" data-aos="fade-left" data-aos-delay="1400" data-aos-duration="300" style="display: inline-block;">M</div>
+                                            <div class="char" data-aos="fade-left" data-aos-delay="1500" data-aos-duration="300" style="display: inline-block;">e</div>
                                         </div>
                                     </div>
                                 </h2>
-                                <button id="#Contact" class="def-btn btn-hover def-btn-8" data-aos="fade-up" data-aos-duration="800">
+                                <button id="Contact" class="def-btn btn-hover def-btn-8" data-aos="fade-up" data-aos-duration="800">
                                     <span class="dot"></span>
                                     <span class="txt">Click to contact <i class="fa-light fa-arrow-up-right"></i></span>
                                 </button>
@@ -2279,7 +2232,6 @@
                 <div class="lightbox-img"></div>
             </div>
         </main>
-        <div class="Toastify"></div>
         <script src="./js/webpack.js?v=1737829575896" async=""></script>
         <script src="./js/page.js"></script>
         <script src="./js/page3.js"></script>
